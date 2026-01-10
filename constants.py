@@ -7,4 +7,5 @@ LINE_WIDTH = 2
 
 #Define player character and hitbox
 PLAYER_RADIUS = 20
+PLAYER_TURN_SPEED = 300
 
