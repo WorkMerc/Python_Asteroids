@@ -38,7 +38,7 @@ def main():
         updatable.update(dt)
 
         for rock in asteroids:
-            if collides_with(player) == True:
+            if player.collides_with(rock) == True:
                 log_event("player_hit")
                 print("Game over!")
                 sys.exit()
