@@ -47,7 +47,7 @@ def main():
                 print("Game over!")
                 sys.exit()
            
-            for shot in shots:
+            for shot in shots: 
                 if shot.collides_with(asteroid) == True:  
                     log_event("asteroid_shot")
                     shot.kill()
@@ -56,7 +56,7 @@ def main():
         screen.fill("black")
         for item in drawable:
             item.draw(screen)
-        pygame.display.flip
+        pygame.display.flip()
 
         # limit the framerate to 60FPS
         dt = clock.tick(60) / 1000
